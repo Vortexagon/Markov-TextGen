@@ -60,9 +60,9 @@ class MarkovChain:
 
 
 
-chain = MarkovChain("The quick brown fox jumped over the lazy dog.")
+chain = MarkovChain("AABCDDDDDABCADDDBCADBCAACBDCACCABDCADBCADDD")
 
-start_node = "T"
+start_node = "A"
 max_length = 50
 
 print(f"Generating Markov Chain.\nMax Length: {max_length}\nStart at: {start_node}\n")
